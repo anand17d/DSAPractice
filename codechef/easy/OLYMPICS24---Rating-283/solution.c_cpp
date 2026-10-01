@@ -1,0 +1,25 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int G, S, B;
+    cin >> G >> S >> B;
+
+    int answer = 0;
+
+    if(G < 5) {
+        answer = answer + (5 - G);
+    }
+
+    if(S < 5) {
+        answer = answer + (5 - S);
+    }
+
+    if(B < 5) {
+        answer = answer + (5 - B);
+    }
+
+    cout << answer;
+
+    return 0;
+}
