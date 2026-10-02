@@ -57,16 +57,28 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T09:02:32.237Z  
+**Submitted:** 2026-10-02T09:03:13.244Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	      
-}
+    int t;
+    cin >> t;
 
+    while (t--) {
+        int N, M;
+        cin >> N >> M;
+
+        if (M >= N)
+            cout << N << endl;
+        else
+            cout << 2 * N - M << endl;
+    }
+
+    return 0;
+}
 ```
 
 ---
