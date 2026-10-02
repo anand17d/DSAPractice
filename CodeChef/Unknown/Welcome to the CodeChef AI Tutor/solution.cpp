@@ -5,7 +5,12 @@ int main() {
     int N;
     cin >> N;
 
-    cout << (N + 1) * 5000 << endl;
+    if (N % 3 == 0)
+        cout << N << endl;
+    else if (N % 3 == 1)
+        cout << N - 1 << endl;
+    else
+        cout << N + 1 << endl;
 
     return 0;
 }
