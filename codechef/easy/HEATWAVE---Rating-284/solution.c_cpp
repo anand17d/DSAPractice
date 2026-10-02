@@ -2,10 +2,7 @@
 using namespace std;
 
 int main() {
-    int t;
-    cin >> t;
-
-    while (t--) {
+    
         int X, Y;
         cin >> X >> Y;
 
@@ -13,7 +10,7 @@ int main() {
             cout << "YES" << endl;
         else
             cout << "NO" << endl;
-    }
+    
 
     return 0;
 }
