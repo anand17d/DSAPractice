@@ -67,17 +67,30 @@ Bob
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T09:19:18.026Z  
+**Submitted:** 2026-10-02T09:20:43.798Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    int t;
+    cin >> t;
 
+    while (t--) {
+        int P, Q;
+        cin >> P >> Q;
+
+        int total = P + Q;
+
+        if (total % 4 < 2)
+            cout << "Alice" << endl;
+        else
+            cout << "Bob" << endl;
+    }
+
+    return 0;
 }
-
 ```
 
 ---
