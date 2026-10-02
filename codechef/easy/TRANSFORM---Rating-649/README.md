@@ -60,30 +60,18 @@ NORMAL
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T09:08:18.494Z  
+**Submitted:** 2026-10-02T09:08:15.779Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int t;
-    cin >> t;
+	    
+	    
 
-    while (t--) {
-        int X;
-        cin >> X;
-
-        if (X % 3 == 0)
-            cout << "normal" << endl;
-        else if (X % 3 == 1)
-            cout << "huge" << endl;
-        else
-            cout << "small" << endl;
-    }
-
-    return 0;
 }
+
 ```
 
 ---
