@@ -9,7 +9,7 @@ public:
 
            
 
-            if(original%d==0){
+            if(d!=0&&original%d==0){
             count++;
            }
         }
